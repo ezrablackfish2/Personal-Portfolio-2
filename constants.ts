@@ -1,8 +1,8 @@
 export const METADATA = {
-  title: "Portfolio | Naboni Abebe",
+  title: "Portfolio | Ezra Yeneneh",
   description:
-    "I am a passionate Software Engineer who has experience developing Enterprise projects.",
-  siteUrl: "https://naboni-portfolio.vercel.app/",
+    "I'm a versatile developer adept in React Native, React,Next.js, Django, Node.js, TypeScript, HTML5, CSS3, Python, and JavaScript. Proficient in Docker, CI/CD pipelines, and a range of tech stacks, I excel in crafting scalable solutions. ",
+  siteUrl: "https://ezra-react.vercel.app/",
 };
 
 export const MENULINKS = [
@@ -17,11 +17,7 @@ export const MENULINKS = [
   {
     name: "Skills",
     ref: "skills",
-  },
-  // {
-  //   name: "Timeline",
-  //   ref: "timeline",
-  // },
+  }, 
   {
     name: "Contact",
     ref: "contact",
@@ -29,23 +25,22 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
+  "I develop Full stack Web and Mobile applciatiosn",
   "I design and develop full stack applications",
   "I develop modern frontend apps",
   "I design dynamic user experience",
   "I design and develop mobile applications",
 ];
 
-export const EMAIL = "se.naboni.abebe@gmail.com";
+export const EMAIL = "ezrayeneneh1992@gmail.com";
 
 export const SOCIAL_LINKS = {
-  linkedin: "https://www.linkedin.com/in/naboni-abebe-5586341a1/",
-  github: "https://github.com/Naboni",
-  // medium: "https://alphaayush.medium.com/",
-  instagram: "https://www.instagram.com/the_bonny_24/",
-  // facebook: "https://www.facebook.com/ayush013",
-  // dribbble: "https://dribbble.com/alphaayush",
-  // behance: "https://www.behance.net/alphaayush/",
-  twitter: "https://twitter.com/Naboni6",
+  linkedin: "https://www.linkedin.com/in/ezra-yeneneh-a07203260/",
+  github: "https://github.com/ezrablackfish2",
+  medium: "https://medium.com/@ezrayeneneh1992",
+  instagram: "https://www.instagram.com/ezrablackfish/",
+  facebook: "https://www.facebook.com/profile.php?id=61556500766435",
+  twitter: "https://twitter.com/@ezrablackfish",
 };
 
 export interface IProject {
@@ -104,70 +99,7 @@ export const PROJECTS: IProject[] = [
     url: "https://covid-gis-react.vercel.app/",
     tech: ["react", "next", "typescript"],
   },
-  // {
-  //   name: "Huminos website",
-  //   image: "/projects/huminos.jpg",
-  //   blurImage: "/projects/blur/huminos-blur.jpg",
-  //   description: "Marketing site for Huminos bots for workplace by facebook",
-  //   gradient: ["#17007B", "#3A2C79"],
-  //   url: "https://bots.huminos.com/",
-  //   tech: ["javascript", "sass", "svg", "gulp"],
-  // },
-  // {
-  //   name: "Alpha Aesthetics",
-  //   image: "/projects/alpha.jpg",
-  //   blurImage: "/projects/blur/alpha-blur.jpg",
-  //   description: "Designed and developed the platform",
-  //   gradient: ["#172839", "#334659"],
-  //   url: "https://alpha-aesthetics.ayushsingh.net/",
-  //   tech: ["illustrator", "javascript", "angular"],
-  // },
-  // {
-  //   name: "Amantrya - Polling Web App",
-  //   image: "/projects/farewell18.jpg",
-  //   blurImage: "/projects/blur/farewell18-blur.jpg",
-  //   description: "Dark mode dated from 2017 🔥",
-  //   gradient: ["#142D46", "#2E4964"],
-  //   url: "https://farewell18.ayushsingh.net/",
-  //   tech: ["javascript", "html", "css"],
-  // },
-  // {
-  //   name: "AKGEC - College Website",
-  //   image: "/projects/akgec.jpg",
-  //   blurImage: "/projects/blur/akgec-blur.jpg",
-  //   description: "Contributed in overall design and development",
-  //   gradient: ["#5E4C06", "#746528"],
-  //   url: "https://www.akgec.ac.in/",
-  //   tech: ["javascript", "html", "css"],
-  // },
-  // {
-  //   name: "BDC 2018 Web Portal",
-  //   image: "/projects/bdc18.jpg",
-  //   blurImage: "/projects/blur/bdc18-blur.jpg",
-  //   description: "Built the portal from zero to production 🚀",
-  //   gradient: ["#470700", "#712A23"],
-  //   url: "https://bdc2018.ayushsingh.net/",
-  //   tech: ["javascript", "html", "css"],
-  // },
-  // {
-  //   name: "Scrolls 2017 - Website",
-  //   image: "/projects/scrolls.jpg",
-  //   blurImage: "/projects/blur/scrolls-blur.jpg",
-  //   description: "Built the portal from zero to production 🚀",
-  //   gradient: ["#685506", "#7B6921"],
-  //   url: "https://scrolls-17.ayushsingh.net/",
-  //   tech: ["angular", "html", "css"],
-  // },
-  // {
-  //   name: "Cardize - Visiting Cards",
-  //   image: "/projects/cardize.jpg",
-  //   blurImage: "/projects/blur/cardize-blur.jpg",
-  //   description: "First web project! Custom visiting card generator",
-  //   gradient: ["#552A04", "#614023"],
-  //   url: "https://cardize.ayushsingh.net/",
-  //   tech: ["javascript", "html", "css"],
-  // },
-];
+  ];
 
 export const SKILLS = {
   frontend: [
@@ -184,8 +116,6 @@ export const SKILLS = {
     "mysql",
     "postgresql",
     "mongodb",
-    // "angular",
-    // "gsap",
     "tailwind",
     "sass",
     "html",
