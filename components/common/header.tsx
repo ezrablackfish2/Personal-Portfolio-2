@@ -6,8 +6,8 @@ const Header = ({ children }: { children: React.ReactNode }) => {
       <div className="flex justify-between section-container">
         <a href="#home" className="link">
           <Image
-            src="/logo.svg"
-            alt="Logo - Naboni Abebe"
+            src="/ezra.png"
+            alt="Logo - Ezra Yeneneh"
             width={22}
             height={22}
           />

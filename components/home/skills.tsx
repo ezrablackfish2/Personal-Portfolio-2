@@ -105,6 +105,12 @@ const SkillsSection = () => {
         <div className="mt-10">
           {renderSkillColumn("FRONTEND DEVELOPMENT", SKILLS.frontend)}
         </div>
+	<div className="mt-10">
+          {renderSkillColumn("BACKEND DEVELOPMENT", SKILLS.backend)}
+        </div>
+	<div className="mt-10">
+          {renderSkillColumn("MOBILE DEVELOPMENT", SKILLS.mobile)}
+        </div>
         <div className="flex flex-wrap mt-10">
           <div className="mr-6 mb-6">
             {renderSkillColumn(

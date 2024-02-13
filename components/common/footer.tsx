@@ -30,7 +30,7 @@ const Footer = () => {
           name="Resume"
           target="_blank"
           rel="noreferrer"
-          href="/Naboni_Resume.pdf"
+          href="/Ezra_Resume.pdf"
         ></Button>
         <Button
           classes="ml-3"
@@ -40,7 +40,7 @@ const Footer = () => {
         ></Button>
       </div>
       <p className="text-center text-sm sm:text-base mt-8">
-        Designed and Developed with by Naboni Abebe
+        Designed and Developed with by Ezra Yeneneh
       </p>
     </>
   );

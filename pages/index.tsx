@@ -65,6 +65,7 @@ export default function Home() {
     <>
       <Head>
         <title>{METADATA.title}</title>
+	<link rel="icon" href="/ezra.png" />
       </Head>
       <Layout>
         <Header>
