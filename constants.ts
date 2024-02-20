@@ -82,6 +82,24 @@ export const PROJECTS: IProject[] = [
     url: "https://jobber-1upt.onrender.com/",
     tech: ["react", "django", "javascript", "postgresql", "python"],
   },
+  {
+    name: "School Management System",
+    image: "/projects/works/4-1.PNG",
+    blurImage: "/projects/blur/4-1-blurred.jpg",
+    description: "a schoole management system where the admin controlls everything and sudents watch thier grade class and attendance",
+    gradient: ["#245B57", "#004741"],
+    url: "https://school-management-system-ezra.vercel.app/",
+    tech: ["react", "nodejs", "javascript", "postgresql", "python"],
+  },
+  {
+    name: "Shavath Mart",
+    image: "/projects/works/5-1.PNG",
+    blurImage: "/projects/blur/5-1-blurred.jpg",
+    description: "an ecommerce product promoting website where sellers can promote thier products",
+    gradient: ["#245B57", "#004741"],
+    url: "https://shavathmart.com/",
+    tech: ["react", "nodejs", "javascript", "postgresql", "python"],
+  },
   ];
 
 export const SKILLS = {
