@@ -55,6 +55,24 @@ export interface IProject {
 }
 
 export const PROJECTS: IProject[] = [
+	{
+    name: "Nsigma",
+    image: "/projects/works/6-1.PNG",
+    blurImage: "/projects/blur/6-1-blurred.jpg",
+    description: "a UI intensified AI website done for clients to learn about data science",
+    gradient: ["#245B57", "#004741"],
+    url: "https://nsigma.io/",
+    tech: ["react", "next", "javascript", "prisma"],
+  },	
+  {
+    name: "Shavath Mart",
+    image: "/projects/works/5-1.PNG",
+    blurImage: "/projects/blur/5-1-blurred.jpg",
+    description: "an ecommerce product promoting website where sellers can promote thier products",
+    gradient: ["#245B57", "#004741"],
+    url: "https://shavathmart.com/",
+    tech: ["react", "nodejs", "javascript", "postgresql", "python"],
+  },
   {
     name: "EZam Ecommerce Website",
     image: "/projects/works/1-1.PNG",
@@ -91,15 +109,6 @@ export const PROJECTS: IProject[] = [
     url: "https://school-management-system-ezra.vercel.app/",
     tech: ["react", "nodejs", "javascript", "postgresql", "python"],
   },
-  {
-    name: "Shavath Mart",
-    image: "/projects/works/5-1.PNG",
-    blurImage: "/projects/blur/5-1-blurred.jpg",
-    description: "an ecommerce product promoting website where sellers can promote thier products",
-    gradient: ["#245B57", "#004741"],
-    url: "https://shavathmart.com/",
-    tech: ["react", "nodejs", "javascript", "postgresql", "python"],
-  },
   ];
 
 export const SKILLS = {
@@ -125,6 +134,7 @@ export const SKILLS = {
     	"nodejs",
 	"mongodb",
 	"firebase",
+	"prisma",
   ],
   mobile: [
 	"reactnative",
