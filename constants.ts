@@ -63,7 +63,26 @@ export const PROJECTS: IProject[] = [
     gradient: ["#245B57", "#004741"],
     url: "https://nsigma.io/",
     tech: ["react", "next", "javascript", "prisma"],
-  },	
+  },
+  {
+    name: "Tondas Groceries",
+    image: "/projects/works/7-1.PNG",
+    blurImage: "/projects/blur/7-1-blurred.jpg",
+    description: "a woocommerce integrated grocery and food eccomerce store",
+    gradient: ["#245B57", "#004741"],
+    url: "https://tondas.wuaze.com/",
+    tech: ["wordpress", "php", "woocommerce"],
+  },
+  {
+    name: "Sayron Preschool",
+    image: "/projects/works/8-1.PNG",
+    blurImage: "/projects/blur/8-1-blurred.jpg",
+    description: "a children enrolling website done using wordpress and php",
+    gradient: ["#245B57", "#004741"],
+    url: "https://sayron.free.nf/",
+    tech: ["wordpress", "php"],
+  },
+  
   {
     name: "Shavath Mart",
     image: "/projects/works/5-1.PNG",
@@ -92,15 +111,6 @@ export const PROJECTS: IProject[] = [
     tech: ["react", "django", "javascript", "python", "postgresql"],
   },
   {
-    name: "Jobber Job Portal",
-    image: "/projects/works/3-1.PNG",
-    blurImage: "/projects/blur/3-1-blurred.jpg",
-    description: "a job finding site where clients post jobs and workers apply🚀",
-    gradient: ["#245B57", "#004741"],
-    url: "https://jobber-1upt.onrender.com/",
-    tech: ["react", "django", "javascript", "postgresql", "python"],
-  },
-  {
     name: "School Management System",
     image: "/projects/works/4-1.PNG",
     blurImage: "/projects/blur/4-1-blurred.jpg",
@@ -109,12 +119,33 @@ export const PROJECTS: IProject[] = [
     url: "https://school-management-system-ezra.vercel.app/",
     tech: ["react", "nodejs", "javascript", "postgresql", "python"],
   },
+  {
+    name: "Nifintron News",
+    image: "/projects/works/9-1.PNG",
+    blurImage: "/projects/blur/9-1-blurred.jpg",
+    description: "a trending news website done using wordpress and php",
+    gradient: ["#245B57", "#004741"],
+    url: "https://ezrablackfish.rf.gd/",
+    tech: ["wordpress", "php"],
+  },
+  {
+    name: "Jobber Job Portal",
+    image: "/projects/works/3-1.PNG",
+    blurImage: "/projects/blur/3-1-blurred.jpg",
+    description: "a job finding site where clients post jobs and workers apply🚀",
+    gradient: ["#245B57", "#004741"],
+    url: "https://jobber-1upt.onrender.com/",
+    tech: ["react", "django", "javascript", "postgresql", "python"],
+  },
+  
   ];
 
 export const SKILLS = {
   frontend: [
     "javascript",
+    "php",
     "typescript",
+    "wordpress",
     "react",
     "redux",
     "next",
@@ -128,6 +159,7 @@ export const SKILLS = {
   backend: [
 	"django",
 	"postgresql",
+	"woocommerce",
 	"mysql",
 	"express",
         "python",
