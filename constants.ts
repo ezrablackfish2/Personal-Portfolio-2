@@ -145,6 +145,15 @@ export const PROJECTS: IProject[] = [
     tech: ["figma"],
   },
   {
+    name: "Siraq App Figma design",
+    image: "/projects/works/22-1.PNG",
+    blurImage: "/projects/blur/22-1-blurred.jpg",
+    description: " , where delicious meals are just a tap away, beautifully realized through Figma",
+    gradient: ["#245B57", "#004741"],
+    url: "https://www.figma.com/file/7Kz2iGItzyQAMtw1krW0xH/Lattofato-App-UI?type=design&node-id=4-118&mode=design&t=FUEZ8ReKVvuQuiSs-0",
+    tech: ["figma"],
+  },
+  {
     name: "Caribal Shopify Store",
     image: "/projects/works/17-1.PNG",
     blurImage: "/projects/blur/17-1-blurred.jpg",
