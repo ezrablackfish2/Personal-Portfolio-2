@@ -141,7 +141,7 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/21-1-blurred.jpg",
     description: " Welcome to AppsMe, where innovation meets intuitive design, beautifully realized through Figma.",
     gradient: ["#245B57", "#004741"],
-    url: "https://www.figma.com/file/OqIvchXAfmq3uca84Wp469/Home-Renovation-Website?type=design&node-id=246-1518&mode=design&t=riuX6jWUeAtITg7g-0",
+    url: "https://www.figma.com/file/wZs3CuAfTp5se2M7nGFQDD/Apps-Me-Design?type=design&node-id=0-1&mode=design&t=FoI9RAkAYt6Dlvq9-0",
     tech: ["figma"],
   },
   {
