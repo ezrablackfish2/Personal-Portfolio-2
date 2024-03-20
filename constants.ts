@@ -1,7 +1,7 @@
 export const METADATA = {
   title: "Portfolio | Ezra Yeneneh",
   description:
-    "I'm a versatile developer adept in React Native, React,Next.js, Django, Node.js, TypeScript, HTML5, CSS3, Python, and JavaScript. Proficient in Docker, CI/CD pipelines, and a range of tech stacks, I excel in crafting scalable solutions. ",
+    "A versatile professional with expertise spanning full-stack blockchain development, UI/UX design, and high-end WordPress and Shopify development.",
   siteUrl: "https://ezra-react.vercel.app/",
 };
 
@@ -25,12 +25,11 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I develop Full stack Web and Mobile applciatiosn",
-  "I design and develop beautiful frontend react websites",
-  "I develop modern backend django websites",
+  "I am a Block Chain Developer",
+  "I design and develop beautiful UI UX figma designs",
+  "I develop modern wordpress websites",
   "I design dynamic user experience",
-  "I design and develop mobile applications using react native",
-  "i design scalable and modern node js backend websites",
+  "I design and develop both front and back end shopify stores",
 ];
 
 export const EMAIL = "ezrayeneneh1992@gmail.com";
@@ -56,14 +55,114 @@ export interface IProject {
 
 export const PROJECTS: IProject[] = [
 	{
-    name: "Nsigma",
-    image: "/projects/works/6-1.PNG",
-    blurImage: "/projects/blur/6-1-blurred.jpg",
-    description: "a UI intensified AI website done for clients to learn about data science",
+    name: "CYBERPUNK GIRL NFT COLLECTIONS",
+    image: "/projects/works/10-1.PNG",
+    blurImage: "/projects/blur/10-1-blurred.jpg",
+    description: "With a seamless user experience,my project aims to revolutionize the digital art market, offering collectors a gateway to exclusive and verifiable digital assets.",
     gradient: ["#245B57", "#004741"],
-    url: "https://nsigma.io/",
-    tech: ["react", "next", "javascript", "prisma"],
+    url: "https://cyberpunkgirl.vercel.app/",
+    tech: ["blockchain", "metamask", "web3"],
   },
+  	{
+    name: "Yoshi Exchange",
+    image: "/projects/works/11-1.PNG",
+    blurImage: "/projects/blur/11-1-blurred.jpg",
+    description: "With an intuitive interface and robust security measures, Smart Swap Exchange revolutionizes token trading, offering a frictionless experience for all participants.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://yoshi.exchange/",
+    tech: ["blockchain", "metamask", "web3"],
+  },
+  {
+    name: "OxygenX",
+    image: "/projects/works/12-1.PNG",
+    blurImage: "/projects/blur/12-1-blurred.jpg",
+    description: "With an intuitive interface and robust security measures, Smart Swap Exchange revolutionizes token trading, offering a frictionless experience for all participants.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://oxygenx-smart-contract.netlify.app/",
+    tech: ["blockchain", "metamask", "web3"],
+  },
+  	{
+    name: "Decentralized Voting",
+    image: "/projects/works/13-1.PNG",
+    blurImage: "/projects/blur/13-1-blurred.jpg",
+    description: " Our decentralized voting website heralds a new era of democratic participation, fostering trust and inclusivity in electoral processes.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://votingdapp.vercel.app/",
+    tech: ["blockchain", "metamask", "web3"],
+  },
+	{
+    name: "Decentralized Casino",
+    image: "/projects/works/14-1.PNG",
+    blurImage: "/projects/blur/14-1-blurred.jpg",
+    description: " Welcome to the future of gambling, where integrity and entertainment converge.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://crypto-casino-chi.vercel.app/games/Roulette",
+    tech: ["blockchain", "metamask", "web3"],
+  },
+  	{
+    name: "Smart Staking Wallet",
+    image: "/projects/works/15-1.PNG",
+    blurImage: "/projects/blur/15-1-blurred.jpg",
+    description: " Our smart staking wallet website offers a hassle-free solution for maximizing returns on crypto investments, empowering users to grow their wealth with ease.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://smart-staking-wallet.web.app/",
+    tech: ["blockchain", "metamask", "web3"],
+  },
+  {
+    name: "Crowd Fund Me",
+    image: "/projects/works/16-1.PNG",
+    blurImage: "/projects/blur/16-1-blurred.jpg",
+    description: " , our website ensures transparency security and global accessibility for fundraising campaigns Smart contracts",
+    gradient: ["#245B57", "#004741"],
+    url: "https://crowdfundme-client.web.app/",
+    tech: ["blockchain", "metamask", "web3"],
+  },
+  {
+    name: "Home Renovation Figma Design",
+    image: "/projects/works/19-1.PNG",
+    blurImage: "/projects/blur/19-1-blurred.jpg",
+    description: " Welcome to your ultimate destination for home renovation inspiration, beautifully realized through Figma.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://www.figma.com/file/OqIvchXAfmq3uca84Wp469/Home-Renovation-Website?type=design&node-id=246-1518&mode=design&t=riuX6jWUeAtITg7g-0",
+    tech: ["figma"],
+  },
+  {
+    name: "Food Delivery Application Figma Design",
+    image: "/projects/works/20-1.PNG",
+    blurImage: "/projects/blur/20-1-blurred.jpg",
+    description: "Welcome to the future of food delivery, beautifully realized through Figma.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://www.figma.com/file/mDj3PFXRugbWki5PMyfpov/Food-Delivery-Application?type=design&node-id=0-1&mode=design&t=TX5IbWStVR4rS165-0",
+    tech: ["figma"],
+  },
+  {
+    name: "Apps Me Figma Design",
+    image: "/projects/works/21-1.PNG",
+    blurImage: "/projects/blur/21-1-blurred.jpg",
+    description: " Welcome to AppsMe, where innovation meets intuitive design, beautifully realized through Figma.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://www.figma.com/file/OqIvchXAfmq3uca84Wp469/Home-Renovation-Website?type=design&node-id=246-1518&mode=design&t=riuX6jWUeAtITg7g-0",
+    tech: ["figma"],
+  },
+  {
+    name: "Caribal Shopify Store",
+    image: "/projects/works/17-1.PNG",
+    blurImage: "/projects/blur/17-1-blurred.jpg",
+    description: " Welcome to Caribal, where shopping meets seamless Shopify integration for an exceptional experience.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://caribal.myshopify.com/",
+    tech: ["shopify"],
+  },
+  {
+    name: "Leishing Shopify Store",
+    image: "/projects/works/18-1.PNG",
+    blurImage: "/projects/blur/18-1-blurred.jpg",
+    description: " Welcome to Leishing, where beauty and quality converge effortlessly on Shopify.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://leishing.myshopify.com/",
+    tech: ["shopify"],
+  },
+	
   {
     name: "Tondas Groceries",
     image: "/projects/works/7-1.PNG",
@@ -82,7 +181,24 @@ export const PROJECTS: IProject[] = [
     url: "https://sayron.free.nf/",
     tech: ["wordpress", "php"],
   },
-  
+  {
+    name: "Nifintron News",
+    image: "/projects/works/9-1.PNG",
+    blurImage: "/projects/blur/9-1-blurred.jpg",
+    description: "a trending news website done using wordpress and php",
+    gradient: ["#245B57", "#004741"],
+    url: "https://ezrablackfish.rf.gd/",
+    tech: ["wordpress", "php"],
+  },
+  {
+    name: "Nsigma",
+    image: "/projects/works/6-1.PNG",
+    blurImage: "/projects/blur/6-1-blurred.jpg",
+    description: "a UI intensified AI website done for clients to learn about data science",
+    gradient: ["#245B57", "#004741"],
+    url: "https://nsigma.io/",
+    tech: ["react", "next", "javascript", "prisma"],
+  },
   {
     name: "Shavath Mart",
     image: "/projects/works/5-1.PNG",
@@ -119,15 +235,7 @@ export const PROJECTS: IProject[] = [
     url: "https://school-management-system-ezra.vercel.app/",
     tech: ["react", "nodejs", "javascript", "postgresql", "python"],
   },
-  {
-    name: "Nifintron News",
-    image: "/projects/works/9-1.PNG",
-    blurImage: "/projects/blur/9-1-blurred.jpg",
-    description: "a trending news website done using wordpress and php",
-    gradient: ["#245B57", "#004741"],
-    url: "https://ezrablackfish.rf.gd/",
-    tech: ["wordpress", "php"],
-  },
+  
   {
     name: "Jobber Job Portal",
     image: "/projects/works/3-1.PNG",
@@ -142,6 +250,11 @@ export const PROJECTS: IProject[] = [
 
 export const SKILLS = {
   frontend: [
+    "blockchain",
+    "metamask",
+    "web3",
+    "figma",
+    "shopify",
     "javascript",
     "php",
     "typescript",
@@ -157,6 +270,10 @@ export const SKILLS = {
     "css",
   ],
   backend: [
+	"blockchain",
+    	"metamask",
+    	"web3",
+	"shopify",
 	"django",
 	"postgresql",
 	"woocommerce",
