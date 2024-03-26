@@ -88,7 +88,7 @@ const CollaborationSection = () => {
   return (
     <section className={COLLABORATION_STYLE.SECTION} ref={targetSection}>
       {renderSlidingText(
-        " User Interface Design  User Experience Mobile App Development ",
+        "Blockchain User Interface Design  User Experience Mobile App Development ",
         "ui-left"
       )}
 

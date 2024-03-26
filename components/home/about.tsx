@@ -60,7 +60,7 @@ const AboutSection = () => {
         Enterprise projects.{" "}
       </span>
       <span className="about-2 leading-tight">
-        I like developing an aesthetic and reliable full stack web and mobile
+        I like developing an aesthetic and reliable blockchain and full stack web and mobile
         applications.
       </span>
     </h1>
