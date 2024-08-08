@@ -1,7 +1,7 @@
 export const METADATA = {
   title: "Portfolio | Ezra Yeneneh",
   description:
-    "A versatile professional with expertise spanning full-stack blockchain development, UI/UX design, and high-end WordPress and Shopify development.",
+    "A versatile professional with expertise spanning full-stack web and blockchain developer React | Node | Django | Solidity.",
   siteUrl: "https://ezra-react.vercel.app/",
 };
 
@@ -25,11 +25,12 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I am a Block Chain Developer",
+  "I am a Full Stack Web and Block Chain Developer",
+  "I develop modern React websites",
+  "I build Scalable Django back end APIS",
+  "I develop very fast and secure Node Backend",
+  "I make very Complex and Advanced Smart Contracts",
   "I design and develop beautiful UI UX figma designs",
-  "I develop modern wordpress websites",
-  "I design dynamic user experience",
-  "I design and develop both front and back end shopify stores",
 ];
 
 export const EMAIL = "ezrayeneneh1992@gmail.com";
@@ -40,7 +41,7 @@ export const SOCIAL_LINKS = {
   medium: "https://medium.com/@ezrayeneneh1992",
   instagram: "https://www.instagram.com/ezrablackfish/",
   facebook: "https://www.facebook.com/profile.php?id=61556500766435",
-  twitter: "https://twitter.com/@ezrablackfish",
+  twitter: "https://twitter.com/0x_Ezra",
 };
 
 export interface IProject {
@@ -58,11 +59,106 @@ export const PROJECTS: IProject[] = [
     name: "Steelo",
     image: "/projects/works/31-1.PNG",
     blurImage: "/projects/blur/31-1-blurred.jpg",
-    description: "As the Head of Blockchain at Steelo, I led the development and implementation of our blockchain infrastructure. I spearheaded the integration of Polygon 2.0's ZkEVM for efficient, low-cost transactions and utilized Solidity for smart contract functionality.",
+    description: "Full Stack Developer React | Node | Solidity",
     gradient: ["#245B57", "#004741"],
     url: "https://steelo.io/",
     tech: ["solidity", "blockchain", "metamask", "web3"],
   },
+  {
+    name: "Hanout Boutique",
+    image: "/projects/works/hanoul.PNG",
+    blurImage: "/projects/blur/hanoul-blurred.jpg",
+    description: "React/Django Developer for Hanout Boutique E-commerce Site",
+    gradient: ["#1F6582", "#1ABCFE"],
+    url: "https://www.hanoutboutique.com/",
+    tech: ["react", "nodejs", "javascript", "postgresql",],
+  },
+  {
+    name: "Dogue",
+    image: "/projects/works/douge.PNG",
+    blurImage: "/projects/blur/douge-blurred.jpg",
+    description: "Full-Stack Node React Developer for DOGUE E-commerce Platform",
+    gradient: ["#245B57", "#004741"],
+    url: "https://www.dogue.com.au/",
+    tech: ["react", "django", "python", "mysql",],
+  },
+{
+    name: "Big Blanket",
+    image: "/projects/works/bigblanket.PNG",
+    blurImage: "/projects/blur/bigblanket-blurred.jpg",
+    description: "Node.js Developer for Big Blanket Co E-commerce Platform",
+    gradient: ["#1F6582", "#1ABCFE"],
+    url: "https://bigblanket.com/",
+    tech: ["react", "django", "mongodb", "python"],
+  },
+  {
+    name: "Condado",
+    image: "/projects/works/candado.PNG",
+    blurImage: "/projects/blur/candado-blurred.jpg",
+    description: "Full Stack MERN Developer",
+    gradient: ["#245B57", "#004741"],
+    url: "https://condadotacos.com/",
+    tech: ["react", "nodejs", "mongodb", "express", "next"],
+  },
+  {
+    name: "Kafu Games",
+    image: "/projects/works/kanu.PNG",
+    blurImage: "/projects/blur/kanu-blurred.jpg",
+    description: "Django Developer Backend",
+    gradient: ["#1F6582", "#1ABCFE"],
+    url: "https://kafugames.com/en",
+    tech: ["django", "python", "firebase"],
+  },
+  
+  
+  {
+    name: "Vanly",
+    image: "/projects/works/vanly.PNG",
+    blurImage: "/projects/blur/vanly-blurred.jpg",
+    description: "",
+    gradient: ["#1F6582", "#1ABCFE"],
+    url: "https://vanly.app",
+    tech: ["react", "django", "mongodb", "python"],
+  },
+  {
+    name: "Steelo",
+    image: "/projects/works/31-1.PNG",
+    blurImage: "/projects/blur/31-1-blurred.jpg",
+    description: "UI / UX Designer",
+    gradient: ["#245B57", "#004741"],
+    url: "https://www.figma.com/proto/2yj8VNO4VYM7YWkWRYJT2m/Steelo-v0.5?page-id=0%3A1&node-id=237-8244&viewport=-1368%2C69%2C0.32&t=pHOceh8I1PF4iNbu-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=237%3A8244&show-proto-sidebar=1",
+    tech: ["figma"],
+  },
+  {
+    name: "Up Vs Down",
+    image: "/projects/works/27-1.PNG",
+    blurImage: "/projects/blur/27-1-blurred.jpg",
+    description: "Introducing UPVsDOWN: a groundbreaking NFT and ERC20 token claiming platform for our Upcoming game website",
+    gradient: ["#245B57", "#004741"],
+    url: "https://upvsdown.com/",
+    tech: ["solidity", "blockchain", "metamask", "web3"],
+  },
+  {
+    name: "MBD GEMZ",
+    image: "/projects/works/MBD GEMZ.PNG",
+    blurImage: "/projects/blur/MBD GEMZ-blurred.jpg",
+    description: "NFT ERC721 solidity Smart Contract Developer",
+    gradient: ["#245B57", "#004741"],
+    url: "https://nft-marketplace-aggrigator-git-main-weiblocks.vercel.app/",
+    tech: ["solidity", "blockchain", "metamask", "web3"],
+  },
+  {
+    name: "ACRU",
+    image: "/projects/works/acru.PNG",
+    blurImage: "/projects/blur/acru-blurred.jpg",
+    description: "Full Stack Blockchain developer",
+    gradient: ["#245B57", "#004741"],
+    url: "https://akru.co/",
+    tech: ["solidity", "blockchain", "metamask", "web3"],
+  },
+
+      
+    
 //  {
 //    name: "OpenSea",
 //    image: "/projects/works/30-1.PNG",
@@ -82,25 +178,25 @@ export const PROJECTS: IProject[] = [
 //    tech: ["solidity", "blockchain", "metamask", "web3"],
 //  },
 	
-	{
-    name: "Aave Ease",
-    image: "/projects/works/24-1.PNG",
-    blurImage: "/projects/blur/24-1-blurred.jpg",
-    description: "Aave Ease is a decentralized finance (DeFi) platform built on Ethereum, allowing users to stake and unstake ERC20 tokens securely",
-    gradient: ["#245B57", "#004741"],
-    url: "https://aave-ease.vercel.app/",
-    tech: ["solidity", "blockchain", "metamask", "web3"],
-  },
-  {
-    name: "SyncP2P",
-    image: "/projects/works/25-1.PNG",
-    blurImage: "/projects/blur/25-1-blurred.jpg",
-    description: "Decentralizing Teamwork, Unleashing Potential for Seamless Collaboration",
-    gradient: ["#245B57", "#004741"],
-    url: "https://syncp2p-hackfs.vercel.app/",
-    tech: ["solidity", "blockchain", "metamask", "web3"],
-  },
-	{
+//	{
+//    name: "Aave Ease",
+//    image: "/projects/works/24-1.PNG",
+//    blurImage: "/projects/blur/24-1-blurred.jpg",
+//    description: "Aave Ease is a decentralized finance (DeFi) platform built on Ethereum, allowing users to stake and unstake ERC20 tokens securely",
+//    gradient: ["#245B57", "#004741"],
+//    url: "https://aave-ease.vercel.app/",
+//    tech: ["solidity", "blockchain", "metamask", "web3"],
+//  },
+//  {
+//    name: "SyncP2P",
+//    image: "/projects/works/25-1.PNG",
+//    blurImage: "/projects/blur/25-1-blurred.jpg",
+//    description: "Decentralizing Teamwork, Unleashing Potential for Seamless Collaboration",
+//    gradient: ["#245B57", "#004741"],
+//    url: "https://syncp2p-hackfs.vercel.app/",
+//    tech: ["solidity", "blockchain", "metamask", "web3"],
+//  },
+/**	{
     name: "Decentralized Course Market ",
     image: "/projects/works/23-1.PNG",
     blurImage: "/projects/blur/23-1-blurred.jpg",
@@ -321,6 +417,7 @@ export const PROJECTS: IProject[] = [
     url: "https://jobber-1upt.onrender.com/",
     tech: ["react", "django", "javascript", "postgresql", "python"],
   },
+  **/
   
   ];
 

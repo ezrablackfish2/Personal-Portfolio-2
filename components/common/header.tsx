@@ -8,8 +8,8 @@ const Header = ({ children }: { children: React.ReactNode }) => {
           <Image
             src="/ezra.png"
             alt="Logo - Ezra Yeneneh"
-            width={22}
-            height={22}
+            width={45}
+            height={70}
           />
         </a>
         <div className="outer-menu relative">

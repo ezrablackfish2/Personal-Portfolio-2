@@ -76,7 +76,7 @@ const HeroSection = React.memo(() => {
   const renderHeroContent = (): React.ReactNode => (
     <div className={HERO_STYLES.CONTENT}>
       <div className="md:mb-5 mb-2">
-        <p className="text-4xl seq">Hello <Image src={"/ezra.png"} width={50} height={50} /></p>
+        <p className="text-4xl seq">Hello <Image src={"/ezra.png"} width={70} height={100} /></p>
         <h1 className="text-3xl seq">I am Ezra Yeneneh</h1>
       </div>
       <p className="mb-5">
