@@ -17,7 +17,7 @@ export const MENULINKS = [
   {
     name: "Skills",
     ref: "skills",
-  }, 
+  },
   {
     name: "Contact",
     ref: "contact",
@@ -55,15 +55,6 @@ export interface IProject {
 }
 
 export const PROJECTS: IProject[] = [
-	{
-    name: "Steelo",
-    image: "/projects/works/31-1.PNG",
-    blurImage: "/projects/blur/31-1-blurred.jpg",
-    description: "Full Stack Developer React | Node | Solidity",
-    gradient: ["#245B57", "#004741"],
-    url: "https://steelo.io/",
-    tech: ["solidity", "blockchain", "metamask", "web3"],
-  },
   {
     name: "Hanout Boutique",
     image: "/projects/works/hanoul.PNG",
@@ -71,18 +62,19 @@ export const PROJECTS: IProject[] = [
     description: "React/Django Developer for Hanout Boutique E-commerce Site",
     gradient: ["#1F6582", "#1ABCFE"],
     url: "https://www.hanoutboutique.com/",
-    tech: ["react", "nodejs", "javascript", "postgresql",],
+    tech: ["react", "nodejs", "javascript", "postgresql"],
   },
   {
     name: "Dogue",
     image: "/projects/works/douge.PNG",
     blurImage: "/projects/blur/douge-blurred.jpg",
-    description: "Full-Stack Node React Developer for DOGUE E-commerce Platform",
+    description:
+      "Full-Stack Node React Developer for DOGUE E-commerce Platform",
     gradient: ["#245B57", "#004741"],
     url: "https://www.dogue.com.au/",
-    tech: ["react", "django", "python", "mysql",],
+    tech: ["react", "django", "python", "mysql"],
   },
-{
+  {
     name: "Big Blanket",
     image: "/projects/works/bigblanket.PNG",
     blurImage: "/projects/blur/bigblanket-blurred.jpg",
@@ -109,8 +101,7 @@ export const PROJECTS: IProject[] = [
     url: "https://kafugames.com/en",
     tech: ["django", "python", "firebase"],
   },
-  
-  
+
   {
     name: "Vanly",
     image: "/projects/works/vanly.PNG",
@@ -121,19 +112,11 @@ export const PROJECTS: IProject[] = [
     tech: ["react", "django", "mongodb", "python"],
   },
   {
-    name: "Steelo",
-    image: "/projects/works/31-1.PNG",
-    blurImage: "/projects/blur/31-1-blurred.jpg",
-    description: "UI / UX Designer",
-    gradient: ["#245B57", "#004741"],
-    url: "https://www.figma.com/proto/2yj8VNO4VYM7YWkWRYJT2m/Steelo-v0.5?page-id=0%3A1&node-id=237-8244&viewport=-1368%2C69%2C0.32&t=pHOceh8I1PF4iNbu-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=237%3A8244&show-proto-sidebar=1",
-    tech: ["figma"],
-  },
-  {
     name: "Up Vs Down",
     image: "/projects/works/27-1.PNG",
     blurImage: "/projects/blur/27-1-blurred.jpg",
-    description: "Introducing UPVsDOWN: a groundbreaking NFT and ERC20 token claiming platform for our Upcoming game website",
+    description:
+      "Introducing UPVsDOWN: a groundbreaking NFT and ERC20 token claiming platform for our Upcoming game website",
     gradient: ["#245B57", "#004741"],
     url: "https://upvsdown.com/",
     tech: ["solidity", "blockchain", "metamask", "web3"],
@@ -157,46 +140,25 @@ export const PROJECTS: IProject[] = [
     tech: ["solidity", "blockchain", "metamask", "web3"],
   },
 
-      
-    
-//  {
-//    name: "OpenSea",
-//    image: "/projects/works/30-1.PNG",
-//    blurImage: "/projects/blur/30-1-blurred.jpg",
-//    description: "I have extensive experience working with OpenSea, specializing in the integration and development of SIP (Steelo Improvement Proposals).",
-//    gradient: ["#245B57", "#004741"],
-//    url: "https://opensea.io/",
-//    tech: ["solidity", "blockchain", "metamask", "web3"],
-//  },
-//{
-//    name: "Soundxyz",
-//    image: "/projects/works/29-1.PNG",
-//    blurImage: "/projects/blur/29-1-blurred.jpg",
-//    description: "My contributions have enhanced Sound.xyz's protocol, facilitating seamless music rights management and monetization for artists",
-//    gradient: ["#245B57", "#004741"],
-//    url: "https://sound.xyz",
-//    tech: ["solidity", "blockchain", "metamask", "web3"],
-//  },
-	
-//	{
-//    name: "Aave Ease",
-//    image: "/projects/works/24-1.PNG",
-//    blurImage: "/projects/blur/24-1-blurred.jpg",
-//    description: "Aave Ease is a decentralized finance (DeFi) platform built on Ethereum, allowing users to stake and unstake ERC20 tokens securely",
-//    gradient: ["#245B57", "#004741"],
-//    url: "https://aave-ease.vercel.app/",
-//    tech: ["solidity", "blockchain", "metamask", "web3"],
-//  },
-//  {
-//    name: "SyncP2P",
-//    image: "/projects/works/25-1.PNG",
-//    blurImage: "/projects/blur/25-1-blurred.jpg",
-//    description: "Decentralizing Teamwork, Unleashing Potential for Seamless Collaboration",
-//    gradient: ["#245B57", "#004741"],
-//    url: "https://syncp2p-hackfs.vercel.app/",
-//    tech: ["solidity", "blockchain", "metamask", "web3"],
-//  },
-/**	{
+  //	{
+  //    name: "Aave Ease",
+  //    image: "/projects/works/24-1.PNG",
+  //    blurImage: "/projects/blur/24-1-blurred.jpg",
+  //    description: "Aave Ease is a decentralized finance (DeFi) platform built on Ethereum, allowing users to stake and unstake ERC20 tokens securely",
+  //    gradient: ["#245B57", "#004741"],
+  //    url: "https://aave-ease.vercel.app/",
+  //    tech: ["solidity", "blockchain", "metamask", "web3"],
+  //  },
+  //  {
+  //    name: "SyncP2P",
+  //    image: "/projects/works/25-1.PNG",
+  //    blurImage: "/projects/blur/25-1-blurred.jpg",
+  //    description: "Decentralizing Teamwork, Unleashing Potential for Seamless Collaboration",
+  //    gradient: ["#245B57", "#004741"],
+  //    url: "https://syncp2p-hackfs.vercel.app/",
+  //    tech: ["solidity", "blockchain", "metamask", "web3"],
+  //  },
+  /**	{
     name: "Decentralized Course Market ",
     image: "/projects/works/23-1.PNG",
     blurImage: "/projects/blur/23-1-blurred.jpg",
@@ -418,8 +380,7 @@ export const PROJECTS: IProject[] = [
     tech: ["react", "django", "javascript", "postgresql", "python"],
   },
   **/
-  
-  ];
+];
 
 export const SKILLS = {
   frontend: [
@@ -446,31 +407,25 @@ export const SKILLS = {
     "css",
   ],
   backend: [
-	"solidity",
-	"blockchain",
-    	"metamask",
-    	"web3",
-	"solana",
-	"rust",
-	"shopify",
-	"django",
-	"postgresql",
-	"woocommerce",
-	"mysql",
-	"express",
-        "python",
-    	"nodejs",
-	"mongodb",
-	"firebase",
-	"prisma",
+    "solidity",
+    "blockchain",
+    "metamask",
+    "web3",
+    "solana",
+    "rust",
+    "shopify",
+    "django",
+    "postgresql",
+    "woocommerce",
+    "mysql",
+    "express",
+    "python",
+    "nodejs",
+    "mongodb",
+    "firebase",
+    "prisma",
   ],
-  mobile: [
-	"reactnative",
-	"firebase",
-	"mysql",
-	"postgresql",
-	"mongodb",
-  ],
+  mobile: ["reactnative", "firebase", "mysql", "postgresql", "mongodb"],
   userInterface: ["figma", "xd"],
   other: ["git", "postman", "cpanel", "vercel", "netlify", "docker"],
 };
