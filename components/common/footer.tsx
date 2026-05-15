@@ -30,7 +30,7 @@ const Footer = () => {
           name="Resume"
           target="_blank"
           rel="noreferrer"
-          href="/Ezra_Resume.pdf"
+          href="/Ezra Yeneneh CV.pdf"
         ></Button>
         <Button
           classes="ml-3"
