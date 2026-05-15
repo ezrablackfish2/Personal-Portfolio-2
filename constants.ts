@@ -387,52 +387,111 @@ export const PROJECTS: IProject[] = [
 ];
 
 export const SKILLS = {
+  // Rebuilt from provided CV content
   frontend: [
-    "solidity",
-    "blockchain",
-    "metamask",
-    "web3",
-    "solana",
-    "rust",
-    "figma",
-    "shopify",
     "javascript",
-    "php",
     "typescript",
-    "wordpress",
     "react",
-    "redux",
     "next",
-    "material",
-    "bootstrap",
-    "tailwind",
-    "sass",
     "html",
     "css",
+    "tailwind",
   ],
   backend: [
-    "solidity",
-    "blockchain",
-    "metamask",
-    "web3",
-    "solana",
-    "rust",
-    "shopify",
     "django",
-    "postgresql",
-    "woocommerce",
-    "mysql",
-    "express",
-    "python",
     "nodejs",
+    "nestjs",
+    "spring",
+    "laravel",
+    "python",
+    "java",
+    "golang",
+    "php",
+    "express",
+  ],
+  mobile: ["reactnative", "flutter"],
+  userInterface: ["figma", "xd", "sketch", "photoshop", "illustrator"],
+  ai: [],
+  other: [
+    "python",
+    "javascript",
+    "typescript",
     "mongodb",
     "firebase",
-    "prisma",
+    "postgresql",
+    "redis",
+    "aws",
+    "gcp",
+    "git",
   ],
-  mobile: ["reactnative", "firebase", "mysql", "postgresql", "mongodb"],
-  userInterface: ["figma", "xd"],
-  other: ["git", "postman", "cpanel", "vercel", "netlify", "docker"],
 };
+
+export const AI_MACHINE_LEARNING_SKILLS = [
+  {
+    name: "Deep Learning",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tensorflow.svg",
+  },
+  {
+    name: "NLP",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/spacy.svg",
+  },
+  {
+    name: "Prompt Engineering",
+    icon: "https://unpkg.com/lucide-static@latest/icons/square-terminal.svg",
+  },
+  {
+    name: "AI Integration",
+    icon: "https://unpkg.com/lucide-static@latest/icons/bot.svg",
+  },
+  {
+    name: "RAG",
+    icon: "https://unpkg.com/lucide-static@latest/icons/database-zap.svg",
+  },
+  {
+    name: "LangChain",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/langchain.svg",
+  },
+  {
+    name: "AI Agents",
+    icon: "https://unpkg.com/lucide-static@latest/icons/bot-message-square.svg",
+  },
+  {
+    name: "n8n",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/n8n.svg",
+  },
+  {
+    name: "Fine-tuning",
+    icon: "https://unpkg.com/lucide-static@latest/icons/sliders-horizontal.svg",
+  },
+  {
+    name: "MATLAB",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg",
+  },
+  {
+    name: "NumPy",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/numpy.svg",
+  },
+  {
+    name: "Pandas",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pandas.svg",
+  },
+  {
+    name: "AI Automation",
+    icon: "https://unpkg.com/lucide-static@latest/icons/workflow.svg",
+  },
+  {
+    name: "PyTorch",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pytorch.svg",
+  },
+  {
+    name: "LLMs",
+    icon: "https://unpkg.com/lucide-static@latest/icons/brain-cog.svg",
+  },
+  {
+    name: "Data Preprocessing",
+    icon: "https://unpkg.com/lucide-static@latest/icons/database.svg",
+  },
+];
 
 export enum Branch {
   LEFT = "leftSide",
