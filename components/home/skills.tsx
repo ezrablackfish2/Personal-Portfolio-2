@@ -43,8 +43,8 @@ const SkillsSection = () => {
       <p className="section-title-sm seq">SKILLS</p>
       <h1 className="section-heading seq mt-2">My Skills</h1>
       <h2 className="text-2xl md:max-w-2xl w-full seq mt-2">
-        I like developing an aesthetic and reliable blockchain full stack web and mobile
-        applications.{" "}
+        I enjoy building aesthetic, reliable, and scalable blockchain, full-stack web,
+        and mobile applications.{" "}
       </h2>
     </div>
   );
