@@ -386,7 +386,7 @@ export const PROJECTS: IProject[] = [
   **/
 ];
 
-export const SKILLS = {
+export const SKILLS: Record<string, string[]> = {
   // Rebuilt from provided CV content
   frontend: [
     "javascript",
