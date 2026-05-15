@@ -25,12 +25,16 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I am a Full Stack Web and Block Chain Developer",
-  "I develop modern React websites",
-  "I build Scalable Django back end APIS",
-  "I develop very fast and secure Node Backend",
-  "I make very Complex and Advanced Smart Contracts",
-  "I design and develop beautiful UI UX figma designs",
+  "I am a Senior Full Stack Engineer",
+  "I build scalable SaaS platforms",
+  "I develop AI and Machine Learning solutions",
+  "I build modern React and Next.js websites",
+  "I develop secure Node.js and Django backend APIs",
+  "I design microservices-based backend systems",
+  "I build mobile apps with React Native and Flutter",
+  "I develop advanced blockchain smart contracts",
+  "I automate workflows using AI agents and n8n",
+  "I deploy cloud applications on AWS and GCP",
 ];
 
 export const EMAIL = "ezrayeneneh1992@gmail.com";

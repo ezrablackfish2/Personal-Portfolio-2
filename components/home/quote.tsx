@@ -36,21 +36,19 @@ const QuoteSection = () => {
   const renderQuote = (): React.ReactNode => (
     <div className="tall:py-60 py-72 section-container">
       <h1 ref={quoteRef} className="font-medium text-3xl md:text-3xl">
-        {/* I have a <span className="text-strong font-bold">strong</span> obsession
-        for attention to detail. */}
-        ✔ Highly skilled in designing, testing and developing software
+        ✔ Experienced in designing, testing, and developing scalable software
         <br />
         <br />
-        ✔ Thorough understanding of data structures and algorithms
+        ✔ Strong understanding of data structures and algorithms
         <br />
         <br />
-        ✔ Knowledge of back-end development best practices
+        ✔ Skilled in backend architecture and API development best practices
         <br />
         <br />
-        ✔ Hands-on software troubleshooting experience
+        ✔ Hands-on experience troubleshooting and optimizing software systems
         <br />
-        <br />✔ Proven track record of proper documentation for future
-        maintenance &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and upgrade
+        <br />
+        ✔ Proven ability to write clean, maintainable, and well-documented code
       </h1>
     </div>
   );

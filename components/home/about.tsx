@@ -56,12 +56,12 @@ const AboutSection = () => {
   const renderQuotes = (): React.ReactNode => (
     <h1 ref={quoteRef} className="font-medium text-3xl sm:text-4xl md:text-6xl">
       <span className="about-1 leading-tight">
-        I am a passionate Software Engineer who has experience developing
-        Enterprise projects.{" "}
+        I am a Senior Full Stack Engineer with experience building SaaS, AI, blockchain,
+        web, and mobile applications.{" "}
       </span>
       <span className="about-2 leading-tight">
-        I like developing an aesthetic and reliable blockchain and full stack web and mobile
-        applications.
+        I enjoy developing scalable, reliable, and modern digital products with clean
+        architecture and strong user experience.
       </span>
     </h1>
   );
